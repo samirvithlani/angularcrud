@@ -1,0 +1,21 @@
+<table>
+    <tr>
+        <th>STUDENT ID</th>
+        <th>STUDENT NAME</th>
+        <th>STUDENT EMAIL</th>
+        <th>STUDENT AGE</th>
+        <th>STUDENT PHONE</th>
+    </tr>
+    <tr *ngFor="let s of students">
+        <td>{{s.id}}</td>
+        <td>{{s.sName}}</td>
+        <td>{{s.sEmail}}</td>
+        <td>{{s.sAge}}</td>
+        <td>{{s.sPhone}}</td>
+        <td>
+            <button (click) = "deleteStudent(s.id)">DELETE</button>
+            <a [routerLink] = "['/updatestudent',s.id]">EDIT</a>
+        </td>
+
+    </tr>
+</table>

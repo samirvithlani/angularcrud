@@ -1,0 +1,29 @@
+<form [formGroup]="studentGroup" (submit)="addStudent()">
+    <div>
+        <label>NAME</label>
+        <input type="text" formControlName ="sName" placeholder="enter name">
+    </div>
+    <div>
+        <label>AGE</label>
+        <input type="text" formControlName ="sAge" placeholder="enter age">
+    </div>
+     
+    <div>
+        <label>email</label>
+        <input type="text" formControlName ="sEmail" placeholder="enter email">
+    </div>
+    
+    <div>
+        <label>phone</label>
+        <input type ="text" formControlName ="sPhone" placeholder="enter phone">
+    </div>
+     <div>
+        <label>PAssword</label>
+        <input type="text" formControlName = "sPassoerd" placeholder="enter password">
+     </div>
+
+    <div>
+        <input type="submit" value="subimt">
+    </div>
+
+</form>

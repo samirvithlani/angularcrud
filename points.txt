@@ -1,0 +1,13 @@
+1)create application
+2)setup requrired modules like reactive form module,httpclient module inside appmodule.ts file
+3)create required components eg ng g c addstudent
+4)setup routings inside app routing module.ts
+
+optional step 
+setup bootstrap 
+
+6)app component html setup sticky compoents as well as router outlet for dynamic components...
+
+7)create service for setup public methods for api ...
+
+8)create obbject of httpclient inside service constructor..
